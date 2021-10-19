@@ -93,7 +93,7 @@ export class SystemConfig {
                 type: "text",
                 key: "interval",
                 unit: "分",
-                value: "1",
+                value: "0.5",
             }, {
                 title: "做题间隔",
                 description: "每一道题之间填写答案的时间间隔",

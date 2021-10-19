@@ -50,7 +50,7 @@ export class mooc implements Launcher {
         });
         moocTask.addEventListener("complete", () => {
             Application.App.log.Warn("任务完成了");
-            alert("任务完成了");
+            // alert("任务完成了");
         });
         moocTask.addEventListener("taskComplete", (index: number, task: Task) => {
             moocTask.SetTaskPointer(index + 1);
